@@ -1,0 +1,8 @@
+server:
+  port: 8989
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://192.168.0.47:3306/telbook?characterEncoding=UTF-8
+    username: root
+    password: 123456
